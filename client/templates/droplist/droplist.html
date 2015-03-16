@@ -1,0 +1,11 @@
+<template name="droplist">
+  <div class="droplist">
+    Select a County
+    <select>
+      <option></option>
+      {{#each options}}
+        {{> option}}
+      {{/each}}
+    </select>
+  </div>
+</template>
